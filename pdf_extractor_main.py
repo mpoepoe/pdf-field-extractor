@@ -23,4 +23,8 @@ def extract_pdf_fields_to_excel(pdf_path, output_excel_path):
         print(f"✅ Excel file created: {output_excel_path}")
 
 # 🔧 Example usage — replace with your PDF path
-extract_pdf_fields_to_excel("your_form_template.pdf", "pdf_field_properties.xlsx")
+# Place this at the bottom of your script
+extract_pdf_fields_to_excel(
+    "/Users/matthewpoepoe/Documents/complex_sample_form.pdf",
+    "/Users/matthewpoepoe/Documents/pdf_field_properties.xlsx"
+)
